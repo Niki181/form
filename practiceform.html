@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>form</title>
+	<style>
+		body {
+			background-color: #f2f6ff;
+			margin: 0;
+			padding: 16px;
+		}
+		.social-icon {
+			width: 50px;
+			height: 50px;
+			padding-top: 16px;
+			padding-bottom: 16px;
+			padding-left: 32px;
+			padding-right: 32px;
+		}
+
+		form {
+			background-color: white;
+			width: 700px;
+			margin-left: auto;
+			margin-right: auto;
+			text-align: center;
+			border: 1px solid #ccc;
+		}
+		#form-heading {
+			font-size: 32px;
+			padding-top: 56px;
+			padding-bottom: 32px;
+		}
+		#social-wrapper {
+			background-color: #f2f6ff;
+			padding: 24px;
+		}
+
+		.input-box {
+			font-size: 18px;
+			padding-bottom: 12px;
+			margin-bottom: 36px;
+			border: 0;
+			border-bottom: 1px solid #ccc;
+			width: 100%;
+		}
+
+		#input-wrapper {
+			padding-top: 80px;
+			padding-bottom: 40px;
+			padding-left: 80px;
+			padding-right: 80px;
+		}
+
+		#btn-submit {
+			background-color: #0056ff;
+			padding-top: 12px;
+			padding-bottom: 12px;
+			padding-left: 24px;
+			padding-right: 24px;
+			font-size: 18px;
+			color: white;
+			border: none;
+		}
+	</style>
+</head>
+<body>
+	<form>
+		<h1 id="form-heading">Register</h1>
+		<div id="social-wrapper">
+			<img class="social-icon" src="https://images.theconversation.com/files/93616/original/image-20150902-6700-t2axrz.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1000&fit=clip" alt="google logo">
+			<img class="social-icon" src="https://image.shutterstock.com/image-photo/valencia-spain-march-05-2017-260nw-593204357.jpg" alt="facebook logo">
+			<img class="social-icon" src="https://pngimg.com/uploads/github/github_PNG83.png" alt="github">
+			<img class="social-icon" src="https://img.flaticon.com/icons/png/512/174/174857.png?size=1200x630f&pad=10,10,10,10&ext=png&bg=FFFFFFFF" alt="linkedin">
+		</div>
+
+		<div id="input-wrapper">
+			<div>
+				<input class="input-box" type="text" name="Username" placeholder="Username">
+			</div>
+
+			<div>
+				<input class="input-box" type="email" name="email" placeholder="Email">
+			</div>
+
+			<div>
+				<input class="input-box" type="password" name="password" placeholder="password">
+			</div>
+
+			<div>
+				<input class="input-box" type="password" name="confirm-password" placeholder="confirm-password">
+			</div>
+
+			<input id="btn-submit" type="submit" name="Register">
+		</div>
+	</form>
+</body>
+</html>
